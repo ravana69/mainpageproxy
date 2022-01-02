@@ -113,3 +113,80 @@ joemama {
     background-size: cover;
     background-position: 50% 50%;
 }
+
+
+.preloader{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	width:100vw;
+	height:100vh;
+	background:#17161A;
+	visibility:hidden;
+	opacity:0;
+	z-index:9999;
+	-webkit-transition: all 1000ms ease;
+	-moz-transition: all 1000ms ease;
+	-ms-transition: all 1000ms ease;
+	-o-transition: all 1000ms ease;
+	transition: all 1000ms ease;
+}
+
+.preloader.show{
+	-webkit-transition-delay: 0;
+	-moz-transition-delay: 0;
+	-ms-transition-delay: 0;
+	-o-transition-delay: 0;
+	transition-delay: 0;
+}
+
+.preloader_inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: auto;
+	text-align: center;
+	font-size: 10vw;
+	font-weight: 800;
+	color: #ffffff;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transform: translate(-50%, 40%);
+	-moz-transform: translate(-50%, 40%);
+	-ms-transform: translate(-50%, 40%);
+	-o-transform: translate(-50%, 40%);
+	transform: translate(-50%, 40%);
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.preloader.show .preloader_inner{
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: translate(-50%, 50%);
+	-moz-transform: translate(-50%, 50%);
+	-ms-transform: translate(-50%, 50%);
+	-o-transform: translate(-50%, 50%);
+	transform: translate(-50%, 50%);
+}
+
+.preloader .loader-bar{
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 5px;
+	background-color: #ffffff;
+	z-index: 1;
+}
+
+img{
+	display:inline-block;
+	max-width:100%;
+	height:auto;	
+}
