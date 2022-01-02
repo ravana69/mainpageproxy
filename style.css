@@ -114,8 +114,7 @@ joemama {
     background-position: 50% 50%;
 }
 
-
-.preloader{
+#preloader{
 	position:fixed;
 	top:0;
 	left:0;
@@ -135,7 +134,7 @@ joemama {
 	transition: all 1000ms ease;
 }
 
-.preloader.show{
+#preloader.show{
 	-webkit-transition-delay: 0;
 	-moz-transition-delay: 0;
 	-ms-transition-delay: 0;
@@ -143,7 +142,7 @@ joemama {
 	transition-delay: 0;
 }
 
-.preloader_inner {
+#preloader_inner {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -166,7 +165,7 @@ joemama {
 	transition: all 500ms ease;
 }
 
-.preloader.show .preloader_inner{
+#preloader.show .preloader_inner{
 	opacity: 1;
 	visibility: visible;
 	-webkit-transform: translate(-50%, 50%);
@@ -176,7 +175,7 @@ joemama {
 	transform: translate(-50%, 50%);
 }
 
-.preloader .loader-bar{
+#preloader .loader-bar{
 	position: fixed;
 	left: 0;
 	top: 0;
