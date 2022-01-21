@@ -1,8 +1,4 @@
 # [My Main FM Webpage](https://ravana69.github.io)
 
-* [Malayalam FM](https://ravana69.github.io/malayalam)
-* [Christ FM](https://ravana69.github.io/Christ)
-* [Hindi FM](https://ravana69.github.io/hindi)
-* [English FM](https://ravana69.github.io/english)
-
-====================================
+#Screenshot
+![image](https://user-images.githubusercontent.com/47528708/150470277-8c7c020d-65bf-428a-9418-93efc2312680.png)
