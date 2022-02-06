@@ -35,7 +35,7 @@ var pJS = function (e, a) {
             color: { value: "#fff" },
             shape: {
                 type: "circle",
-                stroke: { width: 0, color: "#ff0000" },
+                stroke: { width: 0, color: "#05c9ff" },
                 polygon: { nb_sides: 5 },
                 image: { src: "", width: 100, height: 100 },
             },
